@@ -17,7 +17,6 @@ var sevenPm = $("#7pm");
 var hour = moment().hours();
 var userInput;
 var hourSpan;
-// var hourString = $(".hour").text().split(" ");
 
 // CURRENT DAY AND TIME
 
@@ -65,7 +64,7 @@ function initPage() {
   var init7 = JSON.parse(localStorage.getItem("07:00 pm"))
   sevenPm.val(init7);
 } 
-
+// COLORS
 function background () {
       
   $(".form-control").each(function () {
